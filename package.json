@@ -1,0 +1,20 @@
+{
+  "name": "NodeJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "express": "^4.16.4",
+    "hbs": "^4.1.1",
+    "request": "^2.88.2",
+    "yargs": "^12.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
