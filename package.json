@@ -1,10 +1,11 @@
 {
-  "name": "NodeJs",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
   },
   "dependencies": {
     "chalk": "^2.4.1",
@@ -13,7 +14,9 @@
     "request": "^2.88.2",
     "yargs": "^12.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
